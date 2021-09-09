@@ -1,4 +1,5 @@
-echo -n "enter year (YYYY): "
+#!/bin/bash -x
+echo -n "enter year (YYYY): ;
 read y
 a= 'expr $y%4'
 b= 'expr $y%100'
